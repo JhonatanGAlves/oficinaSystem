@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff !important;
+}
+
+header {
+    margin: 0;
+    padding: 20px;
+    line-height: 50%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #272727;
+}
+
+.menu-logo {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300px;
+    text-align: left;
+    padding-left: 5px;
+    border-radius: 5px 0px 0px 10px;
+    border-left: 20px solid #F76201;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo a:hover {
+    color: #FFFFFF;
+}
+
+.menu {
+    margin-right: 560px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    display: flex;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.menu ul li ul {
+    display: none;
+    background-color: #F76201;
+}
+
+.menu ul li ul li a:hover {
+    border-bottom: solid 1px #FFFFFF;
+    background-color: #ff802c;
+}
+
+.menu ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu ul li:hover a {
+    border-bottom: solid 2px #F76201;
+    color: #FFFFFF;
+}
+
+/*BANNER*/
+.banner {
+    margin-top: -135px;
+    background-image: url("../img/backgroun-banner.jpg");
+    background-size: cover;
+    border-bottom: solid 1px #FFFFFF;
+}
+
+.sobreposicao {
+    margin: 0;
+    padding-top: 180px;
+    padding-bottom: 150px;
+    background: #00000098;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 900;
+    text-align: center;
+    font-size: 120px;
+    margin-bottom: 20PX;
+    color: #FFFFFF;
+    text-shadow: 0 0 1px #000;
+}
+
+h2 {
+    font-family: 'sans serif';
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-shadow: 0 0 1px #000;
+}
+
+.socials {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.socials img {
+    width: 45px;
+    padding: 15px;
+}
+
+.socials img:hover {
+    opacity: 0.8;
+}
+
+/*SERVIÇOS*/
+.servicos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+}
+
+.servicos h2 {
+    text-align: center;
+}
+
+.txt-serv {
+    position: absolute;
+}
+
+.txt-serv h2 {
+    margin-top: 65px;
+    font-size: 40px;
+    border-right: 20px solid #F76201;
+    border-radius: 0px 5px 10px 0px;
+    padding-right: 10px;
+}
+
+.container-serv {
+    width: 1400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.serv {
+    padding: 30px;
+    padding-top: 180px;
+    display: block;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 0px 15px 40px 15px ;
+}
+
+.serv:hover {
+    border-bottom: solid 5px #F76201;
+    border-radius: 0 0 0 20px;
+}
+
+.serv img {
+    width: 70px;
+}
+
+.serv h2 {
+    font-weight: 600;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'sans serif';
+    font-size: 18px;
+}
+
+/*QUEM SOMOS*/
+.quem-somos {
+    background-image: url("../img/backgroun-quemsomos.jpg");
+    filter: blur(1000);
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+.container-quem-somos {
+    display: flex;
+    padding: 50px 150px 70px 0px;
+    background: #00000098;
+    transform: rotateY(180deg);
+}
+
+.imagem-gif {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.imagem-gif img {
+    padding-top: 50px;
+    border-radius: 50%;
+}
+
+.txt-quem-somos {
+    display: block;
+    justify-content: center;
+    width: 50%;
+}
+
+.txt-quem-somos h2 {
+    margin-top: 65px;
+    font-size: 40px;
+    border-right: 20px solid #F76201;
+    border-radius: 0px 5px 10px 0px;
+    padding-right: 10px;
+}
+
+.txt-quem-somos p {
+    line-height: 23px;
+    text-align: justify;
+}
+
+/*RODAPÉ*/
+footer {
+    width: auto;
+    background-color: #F76201;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    text-align: center;
+    line-height: 25px;
+}
+
+/*PÁGINA DE CADASTRO*/
+.containerCad {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.containerCad h2 {
+    color: #303030;
+}
